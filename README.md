@@ -63,6 +63,7 @@ $ npm run serve
 \---src
 |    \---config
 |    |   +---db.js
+
 |    \---controller
 |    |   +---auth.js
 |		 |	 +---cart.js
@@ -73,6 +74,7 @@ $ npm run serve
 |    \---helper
 |		 |	 +---user.js
 |		 |	 +---helpers.js
+
 |    \---models
 |    |   +---auth.js
 |		 |	 +---cart.js
@@ -80,6 +82,7 @@ $ npm run serve
 |    |   +---checkout.js
 |    |   +---payment.js
 |    |   +---product.js
+
 |    \---router
 |    |   +---auth.js
 |		 |	 +---cart.js
