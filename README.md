@@ -1,110 +1,119 @@
-# Simple RESTful API with Express.js
+# Food Cashier API
+
+[![Express JS](https://img.shields.io/badge/Dependencies-Express%20JS-green)](https://expressjs.com/)
+![GitHub repo size](https://img.shields.io/github/repo-size/HiRahmat-Dev/food-cashier-api)
+![GitHub contributors](https://img.shields.io/github/contributors/HiRahmat-Dev/food-cashier-api)
+![GitHub stars](https://img.shields.io/github/stars/HiRahmat-Dev/food-cashier-api?style=social)
+![GitHub forks](https://img.shields.io/github/forks/HiRahmat-Dev/food-cashier-api?style=social)
+![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FHiRahmat-Dev%2Ffood-cashier-api
+)
 
 <p align="center">
-  <a href="https://nodejs.org/">
+  <a href="https://nodejs.org/" target="blank">
     <img src="https://cdn-images-1.medium.com/max/871/1*d2zLEjERsrs1Rzk_95QU9A.png">
   </a>
 </p>
 
-<section id="home">
-<h1 align="center">Chasier app - Backend</h1>
+## Table of Contents
+- [Prerequiste](#prerequiste)
+- [Installation](#installation)
+- [Link Collection Postman](#link-collection-postman)
+- [Structure Folder](#structure-folder)
+- [Contributing](#contributing)
+- [Related Project](#related-project)
+- [Contributors](#contributors)
 
-Chasier app is an application to manage sales at hayuu cafe. Built with NodeJs using the ExpressJs Framework.
-Express.js is a web application framework for Node.js. [More about Express](https://en.wikipedia.org/wiki/Express.js)
-</section>
+## Prerequiste
+- Node.js - Download and Install [Node.js](https://nodejs.org/en/).
+- MySQL - Download and Install [MySQL](https://www.mysql.com/downloads/) - Make sure it's running on the default port.
 
-
-## Table Of Content
-<div class="header">
-	<ul>
-		<li><a href="#requirements">Requirements</a></li>
-		<li><a href="#how-to-run">How To Run</a></li>
-		<li><a href="#set-up-env-file">Setup .env</a></li>
-		<li><a href="#end-point">End Point</a></li>
-		<li><a href="#related-project">Related Project</a></li>
-	</ul>
-</div>
-
-<section id="requirements">
-
-## Requirements
-
-1. [![Node.js](https://img.shields.io/badge/Node.js-v.10.16-green.svg?style=rounded-square)](https://nodejs.org/)	
-2. [![Express.js](https://img.shields.io/badge/Express.js-4.x-blue.svg?style=rounded-square)](https://expressjs.com/en/starter/installing.html)
-3. <a href="https://www.getpostman.com/">Postman</a>
-4. [Web Server (ex. xampp)](https://www.apachefriends.org/index.html)
-</section>
-
-
-<section id="how-to-run">
-	
-## How to run
-1. Open app's directory in CMD or Terminal
-2. Type `npm install`
-3. Make new file **.env** in root project folder, set up first [here](#env)
-4. Turn on Web Server and MySQL can using Third-party tool like xampp, etc.
-5. Create a database post, and Import file [post.sql](database/post.sql) to **phpmyadmin**
-6. Open Postman desktop application or Chrome web app extension that has installed before
-7. Choose HTTP Method and enter request url.(ex. localhost:4001/api/v1)
-8. You can see all the end point [here](#end-point)
-</section>
-
-<section id="setup-env">
-	
-## Set up env file
-Open .env file on your favorite code editor, and copy paste this code below :
+## Installation
+### Clone
 ```
-SERVER_PORT = 2727
-DB_HOST = "localhost"
-DB_USER = "root" //default
-DB_PASSWORD = "" //default
-DB_NAME = "post"
-PRIVATE_KEY = "private"
-URL=""
-URL_IMG= "http://localhost:2727/"
+$ git clone https://github.com/m-joseph27/Chasier_app-API.git
+$ cd food-cashier-api
+$ npm install
 ```
-</section>
 
-<section id="end-point">
+### Create Environment Variable
+```
+$ touch .env
+$ nano .env
+```
 
-## End Point
+```
+DB_HOST=YOUR_HOST
+DB_USER=YOUR_USER
+DB_PASSWORD=YOUR_PASSWORD
+DB_NAME=YOUR_TABLE-NAME
 
-<div class="demo">
-    <div class="items">
-    	<h4 class="title-demo">Register</h4>
-		<img class="img-demo" src="./demo/register.png">  
-    </div>
-    <div class="items">
-    	<h4 class="title-demo">Login</h4>
-		<img class="img-demo" src="./demo/login.png">
-		<h6>Response success Login</h6>
-		<img class="img-res" src="./demo/token.png">
-		<h6>Copy and Paste token into Headers</h6>
-		<img class="img-res" src="./demo/headers.png">
-    </div>
-     <div class="items">
-    	<h4 class="title-demo">Category</h4>
-		<img class="img-demo" src="./demo/get-category.png">  
-		<img class="img-demo" src="./demo/post-category.png">  
-		<img class="img-demo" src="./demo/patch-category.png">  
-		<img class="img-demo" src="./demo/delete-category.png">  
-    </div>
-    <div class="items">
-    	<h4 class="title-demo">Product</h4>
-		<img class="img-demo" src="./demo/get-product.png">
-		<img class="img-demo" src="./demo/pagination.png">    
-		<img class="img-demo" src="./demo/post-product.png">  
-		<img class="img-demo" src="./demo/patch-product.png">  
-		<img class="img-demo" src="./demo/delete-product.png">  
-    </div>
-</div>
-</section>
+SERVER_PORT=YOUR_PORT
 
+```
 
-<section id="related-project">
-	
+### Start Development Server
+```
+$ npm run serve
+```
+## Link Collection Postman
+[Postman](https://www.getpostman.com/collections/bb923819853137d50b60)
+
+## Structure Folder
+```
+\---src
+|    \---config
+|    |   +---db.js
+|    \---controller
+|    |   +---auth.js
+|		 |	 +---cart.js
+|		 |	 +---category.js
+|    |   +---checkout.js
+|    |   +---payment.js
+|    |   +---product.js
+|    \---helper
+|		 |	 +---user.js
+|		 |	 +---helpers.js
+|    \---models
+|    |   +---auth.js
+|		 |	 +---cart.js
+|		 |	 +---category.js
+|    |   +---checkout.js
+|    |   +---payment.js
+|    |   +---product.js
+|    \---router
+|    |   +---auth.js
+|		 |	 +---cart.js
+|		 |	 +---category.js
+|    |   +---index.js
+|    |   +---payment.js
+|    |   +---product.js
++---server.js
+```
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+Fork the Project
+1. Create your Feature Branch  ```git checkout -b [feature]```
+2. Commit your Changes ```git commit -m 'Add some feature'```
+3. Push to the Branch ```git push origin [feature]```
+4. Open a Pull Request
+
 ## Related Project
-* [`Chasier_app`](https://github.com/m-joseph27/POS-Chasier_app-with-Vuejs.git)
-</section>
+* [`Frontend-Food-Cashier`](https://github.com/m-joseph27/POS-Chasier_app-with-Vuejs)
+* [`Backend-Food-Cashier`](https://github.com/m-joseph27/Chasier_app-API)
 
-	
+## Contributors
+<center>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/m-joseph27/">
+          <img width="150" src="https://avatars2.githubusercontent.com/u/55150659?s=460&u=c7171bb4128787c303efdce0d62bc86289f1211b&v=4" alt="Muhammad Yusuf"><br/>
+          <b>Muhammad Yusuf</b>
+        </a>
+      </td>
+    </tr>
+  </table>
+</center>
