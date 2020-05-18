@@ -68,8 +68,8 @@ $ npm run serve
 |		 |	 +---cart.js
 |		 |	 +---category.js
 |    |   +---checkout.js
-|    |   +---payment.js
 |    |   +---product.js
+|    |   +---payment.js
 |    \---helper
 |		 |	 +---user.js
 |		 |	 +---helpers.js
